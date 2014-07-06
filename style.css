@@ -1,3 +1,25 @@
+* {
+  margin: 0;
+}
+
+img {
+  height: 30px;
+  margin: 10px 20px;
+}
+
+#button {
+  background: red;
+  width: 200px;
+  height: 200px;
+  border-radius: 300px;
+  margin: 0 auto;
+  font-size: 25px !important;
+}
+
+/*img:last-child {
+  margin-right: 0;
+}*/
+
 @font-face
 {
   font-family:cpmonoplain;
@@ -8,6 +30,7 @@
 }
 
 body {
+  -webkit-font-smoothing: antialiased;
   /*font: 40px 'Lato', sans-serif;*/
   color: #FFF;
   background: #111;
@@ -15,8 +38,11 @@ body {
 
 }
 .container {
-    margin: 100px auto 0;
+    margin: 40px auto 0;
     text-align: center;
+}
+#content {
+
 }
 h2{
   position: relative;;
@@ -51,9 +77,6 @@ a {
 .ended {
   background: #c0392b;
 }
-.styled{
-  margin-bottom: 50px;
-}
 .styled div {
   display: inline-block;
   margin-left: 20px;
@@ -71,16 +94,43 @@ a {
   margin-left: 0;
 }
 h1 {
-  font-size: 25px;
+  color: #F4F450;
+  font-size: 80px;
   text-transform: uppercase;
+}
+h3 {
+  font-size: 28px;
+  font-family: cpmono;
 }
 .styled div span {
   font-family: cpmono;
   display: block;
-  border-top: 1px solid #cecece;
+  border-top: 1px solid #F4F450;
   padding-top: 8px;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: normal;
   text-transform: uppercase;
   text-align: left;
+  color: #F4F450;
+}
+
+#content {
+  margin: 50px 0;
+  min-height: 200px;
+  /*padding: 50px 0;*/
+}
+
+#button {
+  color: white;
+  cursor: pointer;
+  font-size: 30px;
+  text-transform: uppercase;
+  padding: 10px;
+}
+#countdown {
+  display: none;
+}
+body{
+  background:url("barcelona.jpg") bottom center fixed #545454;
+  background-size:cover;
 }

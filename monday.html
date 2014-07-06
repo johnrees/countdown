@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Countdown</title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.countdown.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Lato:900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+
+    <script type="text/javascript">
+
+      $(function() {
+
+        var endDate;
+
+        $('#button').on('click', function() {
+          $("#countdown").show()
+          $("#button").hide()
+
+          $('.countdown.styled').countdown({
+            date: String(new Date()).replace('2014','2054'),
+            render: function(data) {
+              $(this.el).html("<div>" + this.leadingZeros(data.years, 2) + " <span>anys/years</span></div><div>" + this.leadingZeros(data.days, 3) + " <span>dies/days</span></div><div>" + this.leadingZeros(data.hours, 2) + " <span>hores/hours</span></div><div>" + this.leadingZeros(data.min, 2) + " <span>minuts/minutes</span></div><div>" + this.leadingZeros(data.sec, 2) + " <span>segons/seconds</span></div>");
+            }
+          });
+
+        });
+
+      });
+    </script>
+  </head>
+  <body>
+    <div class="container">
+        <h1>BARCELONA</h1>
+        <h3>GLOBALMENT CONNECTADA, LOCALMENT AUTOSUFICIENT</h3>
+        <h3>GLOBALLY CONNECTED, LOCALLY SELF-SUFFICIENT</h3>
+
+      <div id="content">
+        <div id="button">
+          Start<br/>the<br/>Countdown
+        </div>
+
+            <div id="countdown">
+
+              <div class="countdown styled"></div>
+            </div>
+      </div>
+      <img src="https://www.fab10.org/assets/logos/ajuntament-barcelona-new-2101442dda5cb7052cc3703429b1e0dc.png" />
+      <img src="https://www.fab10.org/assets/logos/iaacbcn-68f7bf551da80228f66854198dfccae1.png" />
+      <img src="https://www.fab10.org/assets/logos/cba-d146ef8dcab6e3c0c0163adb686f79b4.png" />
+      <img src="https://www.fab10.org/assets/logos/fabfoundation-ea732b676149d4341881762cc8f06310.png" />
+    </div>
+  </body>
+</html>
