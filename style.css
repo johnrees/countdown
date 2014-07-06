@@ -131,6 +131,6 @@ h3 {
   display: none;
 }
 body{
-  background:url("barcelona.jpg") bottom center fixed #545454;
+  background:url("barcelona.jpg?1") bottom center fixed #545454;
   background-size:cover;
 }
