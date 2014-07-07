@@ -25,15 +25,15 @@ img {
   font-family:cpmonoplain;
   font-weight:normal;
   font-style:normal;
-  src:url(/fonts/cpmono.eot);
-  src:url(/fonts/cpmono.eot?#iefix) format("embedded-opentype"),url(/fonts/cpmono.woff) format("woff"),url(/fonts/cpmono.ttf) format("truetype"),url(/fonts/cpmono.svg#cpmonoplain) format("svg")
+  src:url(/fonts/cpmono-cc_bold-webfont.eot);
+  src:url(/fonts/cpmono-cc_bold-webfont.eot?#iefix) format("embedded-opentype"),url(/fonts/cpmono-cc_bold-webfont.woff) format("woff"),url(/fonts/cpmono-cc_bold-webfont.ttf) format("truetype"),url(/fonts/cpmono-cc_bold-webfont.svg#cpmonoplain) format("svg")
 }
 
 body {
   -webkit-font-smoothing: antialiased;
   /*font: 40px 'Lato', sans-serif;*/
   color: #FFF;
-  background: #111;
+  background: #1A212A;
   font-family: 'Lato';
 
 }
