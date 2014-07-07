@@ -25,8 +25,8 @@ img {
   font-family:cpmonoplain;
   font-weight:normal;
   font-style:normal;
-  src:url(/fonts/cpmono-cc_bold-webfont.eot);
-  src:url(/fonts/cpmono-cc_bold-webfont.eot?#iefix) format("embedded-opentype"),url(/fonts/cpmono-cc_bold-webfont.woff) format("woff"),url(/fonts/cpmono-cc_bold-webfont.ttf) format("truetype"),url(/fonts/cpmono-cc_bold-webfont.svg#cpmonoplain) format("svg")
+  src:url(fonts/cpmono-cc_bold-webfont.eot);
+  src:url(fonts/cpmono-cc_bold-webfont.eot?#iefix) format("embedded-opentype"),url(fonts/cpmono-cc_bold-webfont.woff) format("woff"),url(fonts/cpmono-cc_bold-webfont.ttf) format("truetype"),url(fonts/cpmono-cc_bold-webfont.svg#cpmonoplain) format("svg")
 }
 
 body {
